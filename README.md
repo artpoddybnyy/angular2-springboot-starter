@@ -1,9 +1,13 @@
 # Angular2SpringbootStarter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.  
+
+The backend is written on springframework.boot 1.5.1.RELEASE.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Run `mvn run build` for a build and start project on tomcat server `http://localhost:8080/`.
 
 ## Code scaffolding
 
@@ -11,7 +15,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `target/www` directory. Use the `-prod` flag for a production build.
 
 ## Running unit tests
 
