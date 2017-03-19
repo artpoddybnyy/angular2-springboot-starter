@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "src/main/webapp",
-      "outDir": "dist",
+      "outDir": "target/www",
       "assets": [
         "assets",
         "favicon.ico"
