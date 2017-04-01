@@ -7,7 +7,7 @@ The backend is written on springframework.boot 1.5.1.RELEASE.
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `mvn run build` for a build and start project on tomcat server `http://localhost:8080/`.
+Run `mvn spring-boot:run` for a build and start project on tomcat server `http://localhost:8080/`.
 
 ## Code scaffolding
 
